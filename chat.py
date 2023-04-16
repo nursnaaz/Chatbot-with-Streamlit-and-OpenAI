@@ -15,7 +15,7 @@ import pandas as pd
 import warnings
 
 # Set OpenAI API key as an environment variable
-os.environ["OPENAI_API_KEY"] = "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"  # Replace 'xxx' with your API key
+os.environ["OPENAI_API_KEY"] = "sk-xxx"  # Replace 'xxx' with your API key
 
 def ask_bot(q, input_index='index.json'):
     """
